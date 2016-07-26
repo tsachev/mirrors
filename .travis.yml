@@ -30,7 +30,7 @@ script:
   - ./mvnw -B clean verify
 
 after_success:
-  - ./mvnw -B -s src/maven/settings.xml -Psite deploy site-deploy
+  - ./mvnw -B -s src/maven/settings.xml -Pdeploy,site deploy site-deploy
   - bash <(curl -s https://codecov.io/bash)
 
 notifications:

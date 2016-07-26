@@ -39,7 +39,7 @@
     <version position="right"/>
     <body>
         <breadcrumbs>
-            <item name="Tsachev" href="https://tsachev.io"/>
+            <item name="Tsachev" href="http://tsachev.io"/>
             <item name="${project.name}" href="index.html"/>
         </breadcrumbs>
         <menu ref="modules"/>
