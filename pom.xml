@@ -64,12 +64,6 @@
         <system>Travis CI</system>
         <url>https://travis-ci.org/${github.projectId}</url>
     </ciManagement>
-    <distributionManagement>
-        <repository>
-            <id>sonatype</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        </repository>
-    </distributionManagement>
 
     <properties>
         <java.version>1.8</java.version>
@@ -96,11 +90,11 @@
         <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
         <maven-resources-plugin.version>3.0.1</maven-resources-plugin.version>
         <maven-site-plugin.version>3.4</maven-site-plugin.version>
+        <site-maven-plugin.version>0.12</site-maven-plugin.version>
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
         <maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
         <taglist-maven-plugin.version>2.4</taglist-maven-plugin.version>
         <versions-maven-plugin.version>2.3</versions-maven-plugin.version>
-        <wagon-git.version>2.0.4</wagon-git.version>
 
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
@@ -254,6 +248,18 @@
                             <version>${asciidoctor-maven-plugin.version}</version>
                         </dependency>
                     </dependencies>
+                    <configuration>
+                        <skipDeploy>true</skipDeploy>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>com.github.github</groupId>
+                    <artifactId>site-maven-plugin</artifactId>
+                    <version>${site-maven-plugin.version}</version>
+                    <configuration>
+                        <message>Site for ${project.artifactId}-${project.version}.</message>
+                        <merge>true</merge>
+                    </configuration>
                 </plugin>
                 <plugin>
                     <artifactId>maven-surefire-plugin</artifactId>
@@ -291,7 +297,6 @@
                             <goal>check</goal>
                         </goals>
                         <configuration>
-                            <!--<skip>true</skip> &lt;!&ndash; todo &ndash;&gt;-->
                             <!--<violationSeverity>warning</violationSeverity>-->
                         </configuration>
                     </execution>
@@ -353,7 +358,7 @@
                 <executions>
                     <execution>
                         <goals>
-                            <goal>jar</goal>
+                            <goal>jar-no-fork</goal>
                         </goals>
                     </execution>
                 </executions>
@@ -373,6 +378,12 @@
         </profile>
         <profile>
             <id>deploy</id>
+            <distributionManagement>
+                <repository>
+                    <id>sonatype</id>
+                    <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+                </repository>
+            </distributionManagement>
             <build>
                 <plugins>
                     <plugin>
@@ -394,7 +405,7 @@
             <distributionManagement>
                 <site>
                     <id>github</id>
-                    <url>git:ssh://git@github.com/${github.projectId}.git?gh-pages#</url>
+                    <url>maven-site/${project.version}</url>
                 </site>
             </distributionManagement>
             <build>
@@ -413,23 +424,24 @@
                         </executions>
                     </plugin>
                     <plugin>
-                        <artifactId>maven-site-plugin</artifactId>
-                        <dependencies>
-                            <dependency>
-                                <groupId>net.trajano.wagon</groupId>
-                                <artifactId>wagon-git</artifactId>
-                                <version>${wagon-git.version}</version>
-                            </dependency>
-                        </dependencies>
-                        <configuration>
-                            <inputDirectory>${project.build.directory}/site</inputDirectory>
-                        </configuration>
+                        <groupId>com.github.github</groupId>
+                        <artifactId>site-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <goals>
+                                    <goal>site</goal>
+                                </goals>
+                                <phase>site-deploy</phase>
+                                <configuration>
+                                    <server>github</server>
+                                    <path>${project.distributionManagement.site.url}</path>
+                                </configuration>
+                            </execution>
+                        </executions>
                     </plugin>
                 </plugins>
             </build>
             <reporting>
-                <outputDirectory>${project.build.directory}/site/${project.version}
-                </outputDirectory>
                 <plugins>
                     <plugin>
                         <artifactId>maven-checkstyle-plugin</artifactId>
@@ -458,9 +470,6 @@
                                 </reports>
                             </reportSet>
                         </reportSets>
-                    </plugin>
-                    <plugin>
-                        <artifactId>maven-javadoc-plugin</artifactId>
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
