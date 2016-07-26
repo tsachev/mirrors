@@ -33,7 +33,7 @@ script:
   - ./mvnw -B clean verify
 
 after_success:
-  - ./mvnw -B -s src/maven/settings.xml -Pdeploy,site deploy site-deploy -Dgithub.global.oauth2Token=${CI_GITHUB_TOKEN}
+  - ./mvnw -B -s src/maven/settings.xml -Pdeploy,site deploy site-deploy
   - bash <(curl -s https://codecov.io/bash)
 
 notifications:
