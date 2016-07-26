@@ -20,7 +20,7 @@ under the License.
 <rss version="0.91">
   <channel>
     <title>Mirrors - Checkstyle report</title>
-    <link>https://github.com/tsachev/mirrors</link>
+    <link>http://tsachev.io/mirrors</link>
     <description>Mirrors - Checkstyle report</description>
     <language>en-us</language>
     <copyright>&#169;2016</copyright>
@@ -30,9 +30,9 @@ under the License.
              Warnings: 59,
              Infos: 0
       </title>
-            <link>https://github.com/tsachev/mirrors/checkstyle.html</link>
+            <link>http://tsachev.io/mirrors/checkstyle.html</link>
       <description>
-        <p>Click <a href="https://github.com/tsachev/mirrors/checkstyle.html">here</a> for the full Checkstyle report.</p>
+        <p>Click <a href="http://tsachev.io/mirrors/checkstyle.html">here</a> for the full Checkstyle report.</p>
 
         <table summary="Files" boder="1">
           <thead>
@@ -46,7 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.tck.playground.TestInterface.java">io/tsachev/mirrors/tck/playground/TestInterface.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.tck.playground.TestInterface.java">io/tsachev/mirrors/tck/playground/TestInterface.java</a>
                 </td>
                 <td>
                   0
@@ -60,7 +60,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.tck.Mirrors.java">io/tsachev/mirrors/tck/Mirrors.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.tck.Mirrors.java">io/tsachev/mirrors/tck/Mirrors.java</a>
                 </td>
                 <td>
                   0
@@ -74,7 +74,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.type.ReflectionTypeMirror.java">io/tsachev/mirrors/reflection/type/ReflectionTypeMirror.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.type.ReflectionTypeMirror.java">io/tsachev/mirrors/reflection/type/ReflectionTypeMirror.java</a>
                 </td>
                 <td>
                   0
@@ -88,7 +88,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.type.ReflectionClassDeclaredType.java">io/tsachev/mirrors/reflection/type/ReflectionClassDeclaredType.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.type.ReflectionClassDeclaredType.java">io/tsachev/mirrors/reflection/type/ReflectionClassDeclaredType.java</a>
                 </td>
                 <td>
                   0
@@ -102,7 +102,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionPackageElement.java">io/tsachev/mirrors/reflection/element/ReflectionPackageElement.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionPackageElement.java">io/tsachev/mirrors/reflection/element/ReflectionPackageElement.java</a>
                 </td>
                 <td>
                   0
@@ -116,7 +116,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionTypeElement.java">io/tsachev/mirrors/reflection/element/ReflectionTypeElement.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionTypeElement.java">io/tsachev/mirrors/reflection/element/ReflectionTypeElement.java</a>
                 </td>
                 <td>
                   0
@@ -130,7 +130,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.package-info.java">io/tsachev/mirrors/reflection/package-info.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.package-info.java">io/tsachev/mirrors/reflection/package-info.java</a>
                 </td>
                 <td>
                   0
@@ -144,7 +144,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.tck.Processor.java">io/tsachev/mirrors/tck/Processor.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.tck.Processor.java">io/tsachev/mirrors/tck/Processor.java</a>
                 </td>
                 <td>
                   0
@@ -158,7 +158,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.util.ReflectionElements.java">io/tsachev/mirrors/reflection/util/ReflectionElements.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.util.ReflectionElements.java">io/tsachev/mirrors/reflection/util/ReflectionElements.java</a>
                 </td>
                 <td>
                   0
@@ -172,7 +172,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.type.AbstractReflectionDeclaredType.java">io/tsachev/mirrors/reflection/type/AbstractReflectionDeclaredType.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.type.AbstractReflectionDeclaredType.java">io/tsachev/mirrors/reflection/type/AbstractReflectionDeclaredType.java</a>
                 </td>
                 <td>
                   0
@@ -186,7 +186,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionFieldVariableElement.java">io/tsachev/mirrors/reflection/element/ReflectionFieldVariableElement.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionFieldVariableElement.java">io/tsachev/mirrors/reflection/element/ReflectionFieldVariableElement.java</a>
                 </td>
                 <td>
                   0
@@ -200,7 +200,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.util.ReflectionTypes.java">io/tsachev/mirrors/reflection/util/ReflectionTypes.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.util.ReflectionTypes.java">io/tsachev/mirrors/reflection/util/ReflectionTypes.java</a>
                 </td>
                 <td>
                   0
@@ -214,7 +214,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.type.AbstractReflectionTypeMirror.java">io/tsachev/mirrors/reflection/type/AbstractReflectionTypeMirror.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.type.AbstractReflectionTypeMirror.java">io/tsachev/mirrors/reflection/type/AbstractReflectionTypeMirror.java</a>
                 </td>
                 <td>
                   0
@@ -228,7 +228,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.AbstractReflectionExecutableElement.java">io/tsachev/mirrors/reflection/element/AbstractReflectionExecutableElement.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.AbstractReflectionExecutableElement.java">io/tsachev/mirrors/reflection/element/AbstractReflectionExecutableElement.java</a>
                 </td>
                 <td>
                   0
@@ -242,7 +242,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionAnnotationValue.java">io/tsachev/mirrors/reflection/element/ReflectionAnnotationValue.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionAnnotationValue.java">io/tsachev/mirrors/reflection/element/ReflectionAnnotationValue.java</a>
                 </td>
                 <td>
                   0
@@ -256,7 +256,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.tck.playground.package-info.java">io/tsachev/mirrors/tck/playground/package-info.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.tck.playground.package-info.java">io/tsachev/mirrors/tck/playground/package-info.java</a>
                 </td>
                 <td>
                   0
@@ -270,7 +270,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionExecutableElement.java">io/tsachev/mirrors/reflection/element/ReflectionExecutableElement.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionExecutableElement.java">io/tsachev/mirrors/reflection/element/ReflectionExecutableElement.java</a>
                 </td>
                 <td>
                   0
@@ -284,7 +284,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionParameterVariableElement.java">io/tsachev/mirrors/reflection/element/ReflectionParameterVariableElement.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionParameterVariableElement.java">io/tsachev/mirrors/reflection/element/ReflectionParameterVariableElement.java</a>
                 </td>
                 <td>
                   0
@@ -298,7 +298,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.type.ReflectionNoType.java">io/tsachev/mirrors/reflection/type/ReflectionNoType.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.type.ReflectionNoType.java">io/tsachev/mirrors/reflection/type/ReflectionNoType.java</a>
                 </td>
                 <td>
                   0
@@ -312,7 +312,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.internal.Constant.java">io/tsachev/mirrors/reflection/internal/Constant.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.internal.Constant.java">io/tsachev/mirrors/reflection/internal/Constant.java</a>
                 </td>
                 <td>
                   0
@@ -326,7 +326,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.AbstractReflectionElement.java">io/tsachev/mirrors/reflection/element/AbstractReflectionElement.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.AbstractReflectionElement.java">io/tsachev/mirrors/reflection/element/AbstractReflectionElement.java</a>
                 </td>
                 <td>
                   0
@@ -340,7 +340,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.tck.playground.NestingClass.java">io/tsachev/mirrors/tck/playground/NestingClass.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.tck.playground.NestingClass.java">io/tsachev/mirrors/tck/playground/NestingClass.java</a>
                 </td>
                 <td>
                   0
@@ -354,7 +354,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.tck.playground.MyAnnotation.java">io/tsachev/mirrors/tck/playground/MyAnnotation.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.tck.playground.MyAnnotation.java">io/tsachev/mirrors/tck/playground/MyAnnotation.java</a>
                 </td>
                 <td>
                   0
@@ -368,7 +368,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionTypeParameterElement.java">io/tsachev/mirrors/reflection/element/ReflectionTypeParameterElement.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionTypeParameterElement.java">io/tsachev/mirrors/reflection/element/ReflectionTypeParameterElement.java</a>
                 </td>
                 <td>
                   0
@@ -382,7 +382,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.tck.playground.TestAnnotation.java">io/tsachev/mirrors/tck/playground/TestAnnotation.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.tck.playground.TestAnnotation.java">io/tsachev/mirrors/tck/playground/TestAnnotation.java</a>
                 </td>
                 <td>
                   0
@@ -396,7 +396,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.internal.ReflectionTypesImpl.java">io/tsachev/mirrors/reflection/internal/ReflectionTypesImpl.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.internal.ReflectionTypesImpl.java">io/tsachev/mirrors/reflection/internal/ReflectionTypesImpl.java</a>
                 </td>
                 <td>
                   0
@@ -410,7 +410,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.ReflectionMirrors.java">io/tsachev/mirrors/reflection/ReflectionMirrors.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.ReflectionMirrors.java">io/tsachev/mirrors/reflection/ReflectionMirrors.java</a>
                 </td>
                 <td>
                   0
@@ -424,7 +424,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionClassTypeElement.java">io/tsachev/mirrors/reflection/element/ReflectionClassTypeElement.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionClassTypeElement.java">io/tsachev/mirrors/reflection/element/ReflectionClassTypeElement.java</a>
                 </td>
                 <td>
                   0
@@ -438,7 +438,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionParameterizable.java">io/tsachev/mirrors/reflection/element/ReflectionParameterizable.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionParameterizable.java">io/tsachev/mirrors/reflection/element/ReflectionParameterizable.java</a>
                 </td>
                 <td>
                   0
@@ -452,7 +452,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.StringName.java">io/tsachev/mirrors/reflection/element/StringName.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.StringName.java">io/tsachev/mirrors/reflection/element/StringName.java</a>
                 </td>
                 <td>
                   0
@@ -466,7 +466,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.tck.MirrorsTck.java">io/tsachev/mirrors/tck/MirrorsTck.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.tck.MirrorsTck.java">io/tsachev/mirrors/tck/MirrorsTck.java</a>
                 </td>
                 <td>
                   0
@@ -480,7 +480,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionVariableElement.java">io/tsachev/mirrors/reflection/element/ReflectionVariableElement.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionVariableElement.java">io/tsachev/mirrors/reflection/element/ReflectionVariableElement.java</a>
                 </td>
                 <td>
                   0
@@ -494,7 +494,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.type.ReflectionArrayType.java">io/tsachev/mirrors/reflection/type/ReflectionArrayType.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.type.ReflectionArrayType.java">io/tsachev/mirrors/reflection/type/ReflectionArrayType.java</a>
                 </td>
                 <td>
                   0
@@ -508,7 +508,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.type.ReflectionPrimitiveType.java">io/tsachev/mirrors/reflection/type/ReflectionPrimitiveType.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.type.ReflectionPrimitiveType.java">io/tsachev/mirrors/reflection/type/ReflectionPrimitiveType.java</a>
                 </td>
                 <td>
                   0
@@ -522,7 +522,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionAnnotationMirror.java">io/tsachev/mirrors/reflection/element/ReflectionAnnotationMirror.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionAnnotationMirror.java">io/tsachev/mirrors/reflection/element/ReflectionAnnotationMirror.java</a>
                 </td>
                 <td>
                   0
@@ -536,7 +536,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.type.ReflectionNullType.java">io/tsachev/mirrors/reflection/type/ReflectionNullType.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.type.ReflectionNullType.java">io/tsachev/mirrors/reflection/type/ReflectionNullType.java</a>
                 </td>
                 <td>
                   0
@@ -550,7 +550,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionElement.java">io/tsachev/mirrors/reflection/element/ReflectionElement.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.ReflectionElement.java">io/tsachev/mirrors/reflection/element/ReflectionElement.java</a>
                 </td>
                 <td>
                   0
@@ -564,7 +564,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tsachev/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.AbstractReflectionVariableElement.java">io/tsachev/mirrors/reflection/element/AbstractReflectionVariableElement.java</a>
+                  <a href="http://tsachev.io/mirrors/checkstyle.html#io.tsachev.mirrors.reflection.element.AbstractReflectionVariableElement.java">io/tsachev/mirrors/reflection/element/AbstractReflectionVariableElement.java</a>
                 </td>
                 <td>
                   0
