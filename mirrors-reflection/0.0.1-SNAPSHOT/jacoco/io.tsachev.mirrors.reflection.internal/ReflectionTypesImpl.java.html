@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ReflectionTypesImpl.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Reflection</a> &gt; <a href="index.source.html" class="el_package">io.tsachev.mirrors.reflection.internal</a> &gt; <span class="el_source">ReflectionTypesImpl.java</span></div><h1>ReflectionTypesImpl.java</h1><pre class="source lang-java linenums">/*
+ * Copyright (c) 2016 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package io.tsachev.mirrors.reflection.internal;
+
+import io.tsachev.mirrors.reflection.element.ReflectionElement;
+import io.tsachev.mirrors.reflection.element.ReflectionTypeElement;
+import io.tsachev.mirrors.reflection.type.ReflectionNoType;
+import io.tsachev.mirrors.reflection.type.ReflectionNullType;
+import io.tsachev.mirrors.reflection.type.ReflectionPrimitiveType;
+import io.tsachev.mirrors.reflection.util.ReflectionTypes;
+
+import java.util.List;
+import javax.lang.model.element.Element;
+import javax.lang.model.element.TypeElement;
+import javax.lang.model.type.ArrayType;
+import javax.lang.model.type.DeclaredType;
+import javax.lang.model.type.ExecutableType;
+import javax.lang.model.type.PrimitiveType;
+import javax.lang.model.type.TypeKind;
+import javax.lang.model.type.TypeMirror;
+import javax.lang.model.type.TypeVariable;
+import javax.lang.model.type.WildcardType;
+
+/**
+ * @author Vladimir Tsanev
+ */
+<span class="nc" id="L41">public class ReflectionTypesImpl implements ReflectionTypes {</span>
+  @Override
+  public ReflectionElement asElement(TypeMirror type) {
+<span class="nc bnc" id="L44" title="All 2 branches missed.">    if (type instanceof TypeVariable) {</span>
+<span class="nc" id="L45">      return (ReflectionElement) ((TypeVariable) type).asElement();</span>
+<span class="nc bnc" id="L46" title="All 2 branches missed.">    } else if (type instanceof DeclaredType) {</span>
+<span class="nc" id="L47">      return (ReflectionElement) ((DeclaredType) type).asElement();</span>
+    }
+<span class="nc" id="L49">    return null;</span>
+  }
+
+  @Override
+  public boolean isSameType(TypeMirror t1, TypeMirror t2) {
+<span class="nc" id="L54">    return false; // todo</span>
+  }
+
+  @Override
+  public boolean isSubtype(TypeMirror t1, TypeMirror t2) {
+<span class="nc" id="L59">    return false; // todo</span>
+  }
+
+  @Override
+  public boolean isAssignable(TypeMirror t1, TypeMirror t2) {
+<span class="nc" id="L64">    return false; // todo</span>
+  }
+
+  @Override
+  public boolean contains(TypeMirror t1, TypeMirror t2) {
+<span class="nc" id="L69">    return false; // todo</span>
+  }
+
+  @Override
+  public boolean isSubsignature(ExecutableType m1, ExecutableType m2) {
+<span class="nc" id="L74">    return false; // todo</span>
+  }
+
+  @Override
+  public List&lt;? extends TypeMirror&gt; directSupertypes(TypeMirror type) {
+<span class="nc bnc" id="L79" title="All 4 branches missed.">    if (type instanceof ExecutableType || type.getKind() == TypeKind.PACKAGE) {</span>
+<span class="nc" id="L80">      throw new IllegalArgumentException(&quot;Type must not be executable or package, but is: &quot; + type);</span>
+    }
+    // TODO
+<span class="nc" id="L83">    return null;</span>
+  }
+
+  @Override
+  public TypeMirror erasure(TypeMirror type) {
+<span class="nc" id="L88">    return null; // todo</span>
+  }
+
+  @Override
+  public ReflectionTypeElement boxedClass(PrimitiveType primitiveType) {
+<span class="nc" id="L93">    switch (primitiveType.getKind()) {</span>
+      //      case BOOLEAN:
+      //        return ReflectionPrimitiveType.getBooleanInstance();
+      //      case BYTE:
+      //        return ReflectionPrimitiveType.getByteInstance();
+      //      case SHORT:
+      //        return ReflectionPrimitiveType.getShortInstance();
+      //      case INT:
+      //        return ReflectionPrimitiveType.getIntInstance();
+      //      case LONG:
+      //        return ReflectionPrimitiveType.getLongInstance();
+      //      case CHAR:
+      //        return ReflectionPrimitiveType.getCharInstance();
+      //      case FLOAT:
+      //        return ReflectionPrimitiveType.getFloatInstance();
+      //      case DOUBLE:
+      //        return ReflectionPrimitiveType.getDoubleInstance();
+      default:
+<span class="nc" id="L111">        throw new IllegalStateException(&quot;Unexpected primitive type: &quot; + primitiveType);</span>
+    }
+  }
+
+  @Override
+  public PrimitiveType unboxedType(TypeMirror type) {
+<span class="nc" id="L117">    return null; // todo</span>
+  }
+
+  @Override
+  public TypeMirror capture(TypeMirror type) {
+<span class="nc" id="L122">    return null;// todo</span>
+  }
+
+  @Override
+  public ReflectionPrimitiveType getPrimitiveType(TypeKind kind) {
+<span class="nc bnc" id="L127" title="All 9 branches missed.">    switch (kind) {</span>
+      case BOOLEAN:
+<span class="nc" id="L129">        return ReflectionPrimitiveType.getBooleanInstance();</span>
+      case BYTE:
+<span class="nc" id="L131">        return ReflectionPrimitiveType.getByteInstance();</span>
+      case SHORT:
+<span class="nc" id="L133">        return ReflectionPrimitiveType.getShortInstance();</span>
+      case INT:
+<span class="nc" id="L135">        return ReflectionPrimitiveType.getIntInstance();</span>
+      case LONG:
+<span class="nc" id="L137">        return ReflectionPrimitiveType.getLongInstance();</span>
+      case CHAR:
+<span class="nc" id="L139">        return ReflectionPrimitiveType.getCharInstance();</span>
+      case FLOAT:
+<span class="nc" id="L141">        return ReflectionPrimitiveType.getFloatInstance();</span>
+      case DOUBLE:
+<span class="nc" id="L143">        return ReflectionPrimitiveType.getDoubleInstance();</span>
+      default:
+<span class="nc" id="L145">        throw new IllegalArgumentException(&quot;Kind must be primitive kind, but is: &quot; + kind);</span>
+    }
+  }
+
+  @Override
+  public ReflectionNullType getNullType() {
+<span class="nc" id="L151">    return ReflectionNullType.getInstance();</span>
+  }
+
+  @Override
+  public ReflectionNoType getNoType(TypeKind kind) {
+<span class="nc bnc" id="L156" title="All 3 branches missed.">    switch (kind) {</span>
+      case NONE:
+<span class="nc" id="L158">        return ReflectionNoType.getNoneInstance();</span>
+      case VOID:
+<span class="nc" id="L160">        return ReflectionNoType.getVoidInstance();</span>
+      default:
+<span class="nc" id="L162">        throw new IllegalArgumentException(&quot;Kind must be 'NONE' or 'VOID', but is '&quot; + kind + &quot;'&quot;);</span>
+
+    }
+  }
+
+  @Override
+  public ArrayType getArrayType(TypeMirror componentType) {
+<span class="nc" id="L169">    return null; // todo</span>
+  }
+
+  @Override
+  public WildcardType getWildcardType(TypeMirror extendsBound, TypeMirror superBound) {
+<span class="nc" id="L174">    return null;// todo</span>
+  }
+
+  @Override
+  public DeclaredType getDeclaredType(TypeElement typeElem, TypeMirror... typeArgs) {
+<span class="nc" id="L179">    return null;// todo</span>
+  }
+
+  @Override
+  public DeclaredType getDeclaredType(DeclaredType containing, TypeElement typeElem, TypeMirror... typeArgs) {
+<span class="nc" id="L184">    return null;// todo</span>
+  }
+
+  @Override
+  public TypeMirror asMemberOf(DeclaredType containing, Element element) {
+<span class="nc" id="L189">    return null;// todo</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>
