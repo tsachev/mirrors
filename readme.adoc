@@ -17,8 +17,7 @@
 = Mirrors
 Vladimir Tsanev <tsachev@gmail.com>
 
-image::https://img.shields.io/travis/tsachev/mirrors.svg[link="https://travis-ci.org/tsachev/mirrors"]
-image::https://img.shields.io/codecov/c/github/tsachev/mirrors.svg[link="https://codecov.io/gh/tsachev/mirrors"]
+image::https://img.shields.io/travis/tsachev/mirrors.svg[link="https://travis-ci.org/tsachev/mirrors"] image::https://img.shields.io/codecov/c/github/tsachev/mirrors.svg[link="https://codecov.io/gh/tsachev/mirrors"]
 
 Mirrors provides implementations of `javax.lang.model.*` akin to https://openjdk.java.net/jeps/119[JEP 119].
 They can be used outside annotation processing environment, allowing annotation processing code to be reused.

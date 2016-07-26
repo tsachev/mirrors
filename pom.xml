@@ -146,7 +146,7 @@
                     <artifactId>maven-checkstyle-plugin</artifactId>
                     <version>${maven-checkstyle-plugin.version}</version>
                     <configuration>
-                        <configLocation>src/checkstyle/tsachev_checks.xml</configLocation>
+                        <configLocation>src/checkstyle/checks.xml</configLocation>
                     </configuration>
                     <dependencies>
                         <dependency>
@@ -210,8 +210,9 @@
 
                             <exclude>mvnw</exclude>
                             <exclude>mvnw.cmd</exclude>
-                            <exclude>.mvn/wrapper/maven-wrapper.jar</exclude>
+
                             <exclude>.git/**</exclude>
+                            <exclude>**/*.jar</exclude>
                             <exclude>**/target/**</exclude>
                             <!-- idea -->
                             <exclude>.idea/**</exclude>
