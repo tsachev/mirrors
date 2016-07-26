@@ -208,6 +208,9 @@
                         <excludes>
                             <exclude>license.txt</exclude>
 
+                            <exclude>mvnw</exclude>
+                            <exclude>mvnw.cmd</exclude>
+                            <exclude>.mvn/wrapper/maven-wrapper.jar</exclude>
                             <exclude>.git/**</exclude>
                             <exclude>**/target/**</exclude>
                             <!-- idea -->
