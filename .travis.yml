@@ -22,7 +22,7 @@ jdk:
   - oraclejdk8
 
 before_install:
-  - ./mvnw -V -B dependency:go-offline -Psite,deploy
+  - ./mvnw -V -B dependency:go-offline -Pdeploy
 
 cache:
   directories:
