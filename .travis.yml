@@ -19,20 +19,17 @@ language: java
 sudo: false
 
 jdk:
-  - openjdk8
+  - oraclejdk8
 
 cache:
   directories:
     - $HOME/.m2/repository
 
 script:
-  - jdk_switcher use oraclejdk8
   - mvn -B clean verify
-  - jdk_switcher use openjdk8
-  - mvn -B clean verify
-  - mvn -B -s src/maven/settings.xml -Psite deploy site-deploy
 
 after_success:
+  - mvn -B -s src/maven/settings.xml -Psite deploy site-deploy
   - bash <(curl -s https://codecov.io/bash)
 
 notifications:
