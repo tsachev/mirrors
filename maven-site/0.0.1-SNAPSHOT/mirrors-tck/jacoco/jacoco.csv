@@ -1,11 +1,11 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
 TCK,io.tsachev.mirrors.tck,Processor.JavacMirrors,14,0,0,0,5,0,3,0,3,0
 TCK,io.tsachev.mirrors.tck,MirrorsTck,0,93,0,0,0,25,0,4,0,4
-TCK,io.tsachev.mirrors.tck,Processor,182,0,4,0,34,0,11,0,9,0
+TCK,io.tsachev.mirrors.tck,Processor,182,0,4,0,33,0,11,0,9,0
 TCK,io.tsachev.mirrors.tck.playground,NestingClass.new Object() {...},3,0,0,0,1,0,1,0,1,0
 TCK,io.tsachev.mirrors.tck.playground,NestingClass.new Object() {...},6,0,0,0,1,0,1,0,1,0
 TCK,io.tsachev.mirrors.tck.playground,NestingClass.new Object() {...},6,0,0,0,1,0,1,0,1,0
-TCK,io.tsachev.mirrors.tck.playground,NestingClass.InstanceNestedClass,6,0,0,0,1,0,1,0,1,0
 TCK,io.tsachev.mirrors.tck.playground,NestingClass.new Object() {...},6,0,0,0,1,0,1,0,1,0
+TCK,io.tsachev.mirrors.tck.playground,NestingClass.InstanceNestedClass,6,0,0,0,1,0,1,0,1,0
 TCK,io.tsachev.mirrors.tck.playground,NestingClass,7,0,0,0,5,0,3,0,3,0
 TCK,io.tsachev.mirrors.tck.playground,NestingClass.StaticNestedClass,3,0,0,0,1,0,1,0,1,0
