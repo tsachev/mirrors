@@ -22,7 +22,7 @@ jdk:
   - oraclejdk8
 
 before_install:
-  - ./mvnw -V -B dependency:go-offline -Pdeploy
+  - ./mvnw -V -B -Psite,deploy clean deploy site -Dgo-offline
 
 cache:
   directories:
@@ -30,10 +30,11 @@ cache:
     - $HOME/.m2/wrapper
 
 script:
-  - ./mvnw -B clean verify
+  - ./mvnw -V -B -Psite,deploy clean verify post-site
 
 after_success:
-  - ./mvnw -B -s src/maven/settings.xml -Pdeploy,site deploy site-deploy
+  - ./mvnw -V -B -Pdeploy deploy -s src/maven/settings.xml -DskipTests
+  - ./mvnw -V -B -Psite,deploy scm-publish:publish-scm -s src/maven/settings.xml
   - bash <(curl -s https://codecov.io/bash)
 
 notifications:

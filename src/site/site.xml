@@ -47,6 +47,6 @@
     </body>
     <poweredBy>
         <logo name="Maven" href="https://maven.apache.org/"
-              img="https://maven.apache.org/images/logos/build-by-maven-white.png"/>
+              img="images/logos/build-by-maven-white.png"/>
     </poweredBy>
 </project>
