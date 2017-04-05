@@ -20,8 +20,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>mirrors</artifactId>
         <groupId>io.tsachev.mirrors</groupId>
+        <artifactId>mirrors</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
