@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2016 the original author or authors.
+// Copyright (c) 2016-2017 the original author or authors.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@ Vladimir Tsanev <tsachev@gmail.com>
 image::https://img.shields.io/travis/tsachev/mirrors.svg[link="https://travis-ci.org/tsachev/mirrors"]
 image::https://img.shields.io/codecov/c/github/tsachev/mirrors.svg[link="https://codecov.io/gh/tsachev/mirrors"]
 
-Mirrors provides implementations of `javax.lang.model.*` akin to https://openjdk.java.net/jeps/119[JEP 119].
+Mirrors provides implementations of `javax.lang.model.*` akin to http://openjdk.java.net/jeps/119[JEP 119].
 They can be used outside annotation processing environment, allowing annotation processing code to be reused.
 
 == Build
