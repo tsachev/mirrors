@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016 the original author or authors.
+ * Copyright (c) 2016-2017 the original author or authors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,7 +30,7 @@ import javax.lang.model.element.NestingKind;
 import javax.lang.model.type.TypeMirror;
 
 /**
- * @author Vladimir Tsnev
+ * @author Vladimir Tsanev
  */
 public class ReflectionClassTypeElement extends AbstractReflectionElement<Class> implements ReflectionTypeElement {
 
