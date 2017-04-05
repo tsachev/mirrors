@@ -35,7 +35,7 @@ script:
 
 after_success:
   - ./mvnw -V -B -Pdeploy deploy -s src/maven/settings.xml -DskipTests
-  - git config -f target/gh-pages/.git/config user.email "\<\>" && git config -f target/gh-pages/.git/config user.name "Travis CI"
+  - git config --global user.email "\<\>" && git config --global user.name "Travis CI"
   - ./mvnw -V -B -Psite,deploy scm-publish:publish-scm -s src/maven/settings.xml
   - bash <(curl -s https://codecov.io/bash)
 
