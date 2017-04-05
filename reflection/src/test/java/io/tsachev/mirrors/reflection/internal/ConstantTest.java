@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016 the original author or authors.
+ * Copyright (c) 2016-2017 the original author or authors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,13 +21,13 @@ import org.junit.jupiter.api.TestInfo;
 import java.math.BigDecimal;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.expectThrows;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class ConstantTest {
 
   @Test
   void testBigDecimalConstantThrowsIllegalArgumentException(TestInfo testInfo) {
-    expectThrows(IllegalArgumentException.class, () -> Constant.valueOf(BigDecimal.ZERO));
+    assertThrows(IllegalArgumentException.class, () -> Constant.valueOf(BigDecimal.ZERO));
   }
 
   @Test
