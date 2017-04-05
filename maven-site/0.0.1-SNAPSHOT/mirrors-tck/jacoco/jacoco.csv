@@ -5,7 +5,7 @@ TCK,io.tsachev.mirrors.tck,Processor,182,0,4,0,33,0,11,0,9,0
 TCK,io.tsachev.mirrors.tck.playground,NestingClass.new Object() {...},3,0,0,0,1,0,1,0,1,0
 TCK,io.tsachev.mirrors.tck.playground,NestingClass.new Object() {...},6,0,0,0,1,0,1,0,1,0
 TCK,io.tsachev.mirrors.tck.playground,NestingClass.new Object() {...},6,0,0,0,1,0,1,0,1,0
-TCK,io.tsachev.mirrors.tck.playground,NestingClass.new Object() {...},6,0,0,0,1,0,1,0,1,0
 TCK,io.tsachev.mirrors.tck.playground,NestingClass.InstanceNestedClass,6,0,0,0,1,0,1,0,1,0
+TCK,io.tsachev.mirrors.tck.playground,NestingClass.new Object() {...},6,0,0,0,1,0,1,0,1,0
 TCK,io.tsachev.mirrors.tck.playground,NestingClass,7,0,0,0,5,0,3,0,3,0
 TCK,io.tsachev.mirrors.tck.playground,NestingClass.StaticNestedClass,3,0,0,0,1,0,1,0,1,0
