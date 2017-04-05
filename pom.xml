@@ -509,13 +509,14 @@
                     </plugin>
                     <plugin>
                         <artifactId>maven-scm-publish-plugin</artifactId>
-                            <configuration>
-                                <serverId>github</serverId>
-                                <scmBranch>gh-pages</scmBranch>
-                                <checkinComment>Site for ${project.artifactId}-${project.version}.</checkinComment>
-                                <ignorePathsToDelete>.nojekyll,current,current-SNAPSHOT</ignorePathsToDelete>
-                                <pubScmUrl>scm:git:https://github.com/tsachev/mirrors.git</pubScmUrl>
-                            </configuration>
+                        <configuration>
+                            <serverId>github</serverId>
+                            <scmBranch>gh-pages</scmBranch>
+                            <checkinComment>Site for ${project.artifactId}-${project.version}.</checkinComment>
+                            <ignorePathsToDelete>.nojekyll,current,current-SNAPSHOT</ignorePathsToDelete>
+                            <pubScmUrl>scm:git:https://github.com/tsachev/mirrors.git</pubScmUrl>
+                            <checkoutDirectory>${project.build.directory}/gh-pages</checkoutDirectory>
+                        </configuration>
                     </plugin>
                     <plugin>
                         <artifactId>maven-site-plugin</artifactId>

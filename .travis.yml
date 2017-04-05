@@ -1,5 +1,5 @@
 #
-# Copyright (c) 2016 the original author or authors.
+# Copyright (c) 2016-2017 the original author or authors.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -35,7 +35,7 @@ script:
 
 after_success:
   - ./mvnw -V -B -Pdeploy deploy -s src/maven/settings.xml -DskipTests
-  - git config user.email "\<\>" && git config user.name "Travis CI"
+  - git config -f target/gh-pages/.git/config user.email "\<\>" && git config -f target/gh-pages/.git/config user.name "Travis CI"
   - ./mvnw -V -B -Psite,deploy scm-publish:publish-scm -s src/maven/settings.xml
   - bash <(curl -s https://codecov.io/bash)
 
