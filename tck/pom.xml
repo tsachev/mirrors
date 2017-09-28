@@ -32,7 +32,7 @@
 
     <properties>
         <junit4.version>4.12</junit4.version>
-        <compile-testing.version>0.10</compile-testing.version>
+        <compile-testing.version>0.12</compile-testing.version>
     </properties>
 
     <dependencies>

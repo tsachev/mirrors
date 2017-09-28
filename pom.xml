@@ -68,23 +68,23 @@
     <properties>
         <java.version>1.8</java.version>
 
-        <junit-platform.version>1.0.0-M4</junit-platform.version>
-        <junit-jupiter.version>5.0.0-M4</junit-jupiter.version>
-        <junit.vintage.version>4.12.0-M4</junit.vintage.version>
+        <junit-platform.version>1.0.0</junit-platform.version>
+        <junit-jupiter.version>5.0.0</junit-jupiter.version>
+        <junit.vintage.version>4.12.0</junit.vintage.version>
 
-        <asciidoctor-maven-plugin.version>1.5.5</asciidoctor-maven-plugin.version>
-        <checkstyle.version>7.6.1</checkstyle.version>
+        <asciidoctor-maven-plugin.version>1.5.6</asciidoctor-maven-plugin.version>
+        <checkstyle.version>7.8.2</checkstyle.version>
         <maven-checkstyle-plugin.version>2.17</maven-checkstyle-plugin.version>
         <maven-clean-plugin.version>3.0.0</maven-clean-plugin.version>
-        <maven-compiler-plugin.version>3.6.1</maven-compiler-plugin.version>
-        <maven-dependency-plugin.version>3.0.0</maven-dependency-plugin.version>
+        <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
+        <maven-dependency-plugin.version>3.0.2</maven-dependency-plugin.version>
         <maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
         <doxia.version>1.7</doxia.version>
-        <findbugs-maven-plugin.version>3.0.4</findbugs-maven-plugin.version>
+        <findbugs-maven-plugin.version>3.0.5</findbugs-maven-plugin.version>
         <maven-install-plugin.version>2.5.2</maven-install-plugin.version>
         <jacoco-maven-plugin.version>0.7.9</jacoco-maven-plugin.version>
         <maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
-        <maven-javadoc-plugin.version>2.10.4</maven-javadoc-plugin.version>
+        <maven-javadoc-plugin.version>3.0.0-M1</maven-javadoc-plugin.version>
         <maven-jxr-plugin.version>2.5</maven-jxr-plugin.version>
         <license-maven-plugin.version>3.0</license-maven-plugin.version>
         <maven-project-info-reports-plugin.version>2.9</maven-project-info-reports-plugin.version>
@@ -95,7 +95,7 @@
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
         <maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
         <taglist-maven-plugin.version>2.4</taglist-maven-plugin.version>
-        <versions-maven-plugin.version>2.3</versions-maven-plugin.version>
+        <versions-maven-plugin.version>2.5</versions-maven-plugin.version>
 
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
