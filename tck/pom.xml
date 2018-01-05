@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (c) 2016-2017 the original author or authors.
+  ~ Copyright (c) 2016-2018 the original author or authors.
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -32,7 +32,7 @@
 
     <properties>
         <junit4.version>4.12</junit4.version>
-        <compile-testing.version>0.12</compile-testing.version>
+        <compile-testing.version>0.15</compile-testing.version>
     </properties>
 
     <dependencies>
