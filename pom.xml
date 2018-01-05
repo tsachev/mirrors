@@ -79,7 +79,6 @@
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
         <maven-dependency-plugin.version>3.0.2</maven-dependency-plugin.version>
         <maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
-        <findbugs-maven-plugin.version>3.0.5</findbugs-maven-plugin.version>
         <maven-install-plugin.version>2.5.2</maven-install-plugin.version>
         <jacoco-maven-plugin.version>0.8.0</jacoco-maven-plugin.version>
         <maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
@@ -92,6 +91,7 @@
         <maven-scm-publish-plugin.version>1.1</maven-scm-publish-plugin.version>
         <maven-site-plugin.version>3.7</maven-site-plugin.version>
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
+        <spotbugs-maven-plugin.version>3.1.1</spotbugs-maven-plugin.version>
         <maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
         <taglist-maven-plugin.version>2.4</taglist-maven-plugin.version>
         <versions-maven-plugin.version>2.5</versions-maven-plugin.version>
@@ -168,9 +168,9 @@
                     <version>${maven-deploy-plugin.version}</version>
                 </plugin>
                 <plugin>
-                    <groupId>org.codehaus.mojo</groupId>
-                    <artifactId>findbugs-maven-plugin</artifactId>
-                    <version>${findbugs-maven-plugin.version}</version>
+                    <groupId>com.github.spotbugs</groupId>
+                    <artifactId>spotbugs-maven-plugin</artifactId>
+                    <version>${spotbugs-maven-plugin.version}</version>
                     <configuration>
                         <fork>false</fork>
                     </configuration>
@@ -319,8 +319,8 @@
                 </executions>
             </plugin>
             <plugin>
-                 <groupId>org.codehaus.mojo</groupId>
-                 <artifactId>findbugs-maven-plugin</artifactId>
+                 <groupId>com.github.spotbugs</groupId>
+                 <artifactId>spotbugs-maven-plugin</artifactId>
                  <executions>
                      <execution>
                          <goals>
@@ -406,7 +406,7 @@
             </activation>
             <properties>
                 <checkstyle.skip>true</checkstyle.skip>
-                <findbugs.skip>true</findbugs.skip>
+                <spotbugs.skip>true</spotbugs.skip>
                 <jacoco.skip>true</jacoco.skip>
                 <license.skip>true</license.skip>
                 <maven.source.skip>true</maven.source.skip>
@@ -546,8 +546,8 @@
                         <artifactId>maven-dependency-plugin</artifactId>
                     </plugin>
                     <plugin>
-                        <groupId>org.codehaus.mojo</groupId>
-                        <artifactId>findbugs-maven-plugin</artifactId>
+                        <groupId>com.github.spotbugs</groupId>
+                        <artifactId>spotbugs-maven-plugin</artifactId>
                     </plugin>
                     <plugin>
                         <groupId>org.jacoco</groupId>
