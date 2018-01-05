@@ -40,7 +40,7 @@
     <body>
         <breadcrumbs>
             <item name="Tsachev" href="http://tsachev.io"/>
-            <item name="${project.name}" href="index.html"/>
+            <item name="Mirrors" href="index.html"/>
         </breadcrumbs>
         <menu ref="modules"/>
         <menu ref="reports" inherit="bottom"/>
