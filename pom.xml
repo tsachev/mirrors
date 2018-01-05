@@ -79,7 +79,6 @@
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
         <maven-dependency-plugin.version>3.0.2</maven-dependency-plugin.version>
         <maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
-        <doxia.version>1.7</doxia.version>
         <findbugs-maven-plugin.version>3.0.5</findbugs-maven-plugin.version>
         <maven-install-plugin.version>2.5.2</maven-install-plugin.version>
         <jacoco-maven-plugin.version>0.7.9</jacoco-maven-plugin.version>
@@ -91,7 +90,7 @@
         <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
         <maven-resources-plugin.version>3.0.2</maven-resources-plugin.version>
         <maven-scm-publish-plugin.version>1.1</maven-scm-publish-plugin.version>
-        <maven-site-plugin.version>3.6</maven-site-plugin.version>
+        <maven-site-plugin.version>3.7</maven-site-plugin.version>
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
         <maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
         <taglist-maven-plugin.version>2.4</taglist-maven-plugin.version>
@@ -272,11 +271,6 @@
                             <groupId>org.asciidoctor</groupId>
                             <artifactId>asciidoctor-maven-plugin</artifactId>
                             <version>${asciidoctor-maven-plugin.version}</version>
-                        </dependency>
-                        <dependency>
-                            <groupId>org.apache.maven.doxia</groupId>
-                            <artifactId>doxia-core</artifactId>
-                            <version>${doxia.version}</version>
                         </dependency>
                     </dependencies>
                     <configuration>
