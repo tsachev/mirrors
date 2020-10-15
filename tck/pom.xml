@@ -31,7 +31,7 @@
     <description>A TCK for Mirrors project.</description>
 
     <properties>
-        <junit4.version>4.12</junit4.version>
+        <junit4.version>4.13.1</junit4.version>
         <compile-testing.version>0.15</compile-testing.version>
     </properties>
 
